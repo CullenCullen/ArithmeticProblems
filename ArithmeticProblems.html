@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Problems</title>
+    <link href= "ArithmeticProblems.css" rel="stylesheet">
+</head>
+<body>
+       <div id="mainbody">
+          <h1>This page will prompt a user to enter an answer to a particular math problem. Then the user will click a button to see if their answer was correct.</h1>
+			
+			<br /><hr /><br />
+			
+			<p> 5 + 9 = ??</p>
+			<input type="button" id="btn" onclick="answer1()" value="Click here to enter the answer to this math problem" />
+			<input type="button" id="btn2" onclick="answer1()" value="Click here" />
+			
+			<p> 4 * 6 = ??</p>
+			<input type="button" id="btn" onclick="answer2()" value="Click here to enter the answer to this math problem" />
+            <input type="button" id="btn2" onclick="answer2()" value="Click here" />
+
+			<p> 25 - 14 = ??</p>
+			<input type="button" id="btn" onclick="answer3()"value="Click here to enter the answer to this math problem" />
+            <input type="button" id="btn2" onclick="answer3()" value="Click here" />
+
+			<p> 48 / 3 = ??</p>
+			<input type="button" id="btn" onclick="answer4()" value="Click here to enter the answer to this math problem" />
+            <input type="button" id="btn2" onclick="answer4()" value="Click here" />
+
+			<p> 26 % 6 = ??</p>
+			<input type="button" id="btn" onclick="answer5()"value=" Click here to enter the answer to this math problem" />
+            <input type="button" id="btn2" onclick="answer5()" value="Click here" />
+        </div>
+		<script>
+			
+			function answer1() 
+			{ var answer1 = prompt("What is the answer?");
+			
+			if(answer1 == 14 )
+				{ alert("Correct!.");
+				} else {
+					alert("That is incorrect.");
+					}
+				
+			}
+			
+			function answer2() 
+			{ var answer2 = prompt("What is the answer?");
+			
+			if(answer2 == 24 )
+				{ alert("Correct!.");
+				} else {
+					alert("That is incorrect.");
+					}
+				
+			}
+			
+			function answer3() 
+			{ var answer3 = prompt("What is the answer?");
+			
+			if(answer3 == 11 )
+				{ alert("Correct!.");
+				} else {
+					alert("That is incorrect.");
+					}
+				
+			}
+			
+			function answer4() 
+			{ var answer4 = prompt("What is the answer?");
+			
+			if(answer4 == 16 )
+				{ alert("Correct!.");
+				} else {
+					alert("That is incorrect.");
+					}
+				
+			}
+			
+		function answer5() 
+			{ var answer5 = prompt("What is the answer?");
+			
+			if(answer5 == 2 )
+				{ alert("Correct!.");
+				} else {
+					alert("That is incorrect.");
+					}
+				
+			}
+
+		</script>		
+</body>
+</html>
