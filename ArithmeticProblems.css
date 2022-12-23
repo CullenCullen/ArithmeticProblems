@@ -1,0 +1,50 @@
+/* Style Sheet for Arithmetic Problems */
+@charset "utf-8";
+
+#mainbody {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 5px solid black;
+    border-radius: 1%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+h1 {
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+
+p {
+    font-weight: bolder ;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+#btn2 {
+    visibility: collapse;
+    display: none;
+
+}
+
+
+    @media screen and (max-width: 480px) {
+        #btn {
+            display: none;
+            visibility: collapse;
+        }
+        #btn2 {
+            display: block;
+            visibility: visible;
+            margin: auto;
+            
+        }
+      }
+
